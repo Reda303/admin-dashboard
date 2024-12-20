@@ -1,0 +1,47 @@
+.sidebar{
+  flex: 1;
+  height: calc(100vh - 50px);
+  position: sticky;
+  top: 50px;
+  background-color: rgb(251, 251, 255);
+}
+.sidebarWrapper{
+  padding: 20px;
+  color: #555;
+}
+.sidebarMenu{
+  margin-bottom: 12px;
+  margin-top: 9px;
+}
+.sidebarTitle{
+  font-size: 18px;
+  color: rgb(187, 185, 185);
+  cursor: pointer;
+  transition: color 0.5s;
+
+}
+.sidebarTitle:hover,.sidebarTitle:active{
+  color: rgb(159, 89, 159);
+}
+.sidebarList{
+  list-style: none;
+  padding: 5px;
+}
+.sidebarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transition: background-color 0.4s, transform 0.4s; /* Add transform for the translate effect */
+  font-size: 15px;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: rgb(228, 228, 250);
+  transform: translateX(5px); /* Adjust this value to the amount of horizontal translation you want */
+}
+.sidebarIcon{
+  margin-right: 6px;
+}

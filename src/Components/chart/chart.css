@@ -1,0 +1,15 @@
+.chart{
+  margin: 25px;
+  padding: 25px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.chartTitle{
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+
+}
+.chartTitle:hover{
+  color: #3498db;
+}
